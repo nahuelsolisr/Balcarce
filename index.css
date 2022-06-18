@@ -1,0 +1,306 @@
+* {
+    box-sizing: border-box;
+}
+html{
+scroll-behavior: smooth; 
+}
+body {
+    font-family: sans-serif;
+    margin: 0;
+}
+
+h1 {
+    font-size: 4.5em;
+   
+}
+h3{
+    font-size: 2em;
+}
+p{
+    font-size: 1.2em;
+}
+a{
+    text-decoration: none;
+    font-size: 1.3em;   
+}
+button a{
+    color: black;
+}
+button{
+    font-size: 1.15em;
+    font-weight: bold;
+    padding: 5px 35px;
+    border-radius: 5px;
+    border: 2px solid rgba(0, 0, 0, 0.3);
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5)
+    color rgb(172, 138, 26);
+    background-color: antiquewhite;
+    
+}
+button:hover{
+    background-color: rgb(199, 150, 86);
+}
+
+nav{
+    text-align: right;
+    padding: 30px 50px 0 0;
+    display: flex;
+    
+}
+nav{
+    align-items: center;
+    padding: 0;
+}
+
+nav li{
+    display: inline-block;
+
+    
+}
+nav li a{
+    color: rgba(255, 255, 255, 0.694);
+    font-weight: 300;
+    text-decoration: none;
+    margin-right: 10px;
+    font-size: 1em;
+    display: flex;
+    background: rgba(0, 0, 0, 0.3);
+    box-shadow: 0 0 20px 0 rgba(1, 1, 1, 0.925);
+}
+
+#balcarce {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 110vh;
+    color: rgba(255, 255, 255, 0.694);
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url(imagenes/balcarce2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+#historia{
+    background-color:grey;
+    color: rgba(255, 255, 255, 0.694);
+    text-align: center;
+
+}
+
+#historia .container{
+    padding: 0px 0px;
+}
+#historia h3{
+    margin-top: 0;
+
+}
+
+#historia .container2{
+    padding: 0;
+}
+
+
+#historia .carta1{
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url(imagenes/balcarce.jfif);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 110vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    
+    
+}
+#historia .carta2{
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url(imagenes/laguna.jfif);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 110vh;;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+#historia .carta3{
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url(imagenes/cerro.jfif);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 110vh;;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+#historia .carta4{
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url(imagenes/fangio.jfif);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 110vh;;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+#historia .carta5{
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url(imagenes/escuela.jfif);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 110vh;;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+#historia .carta6{
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url(imagenes/plaza.jfif);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 110vh;;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+#historia .carta7{
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url(imagenes/sociedaditaliana.jfif);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 110vh;;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+#historia .carta8{
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url(imagenes/parroquia.jfif);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 110vh;;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+#historia .carta9{
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url(imagenes/municipaldiad.jfif);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 110vh;;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+#historia .carta10{
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url(imagenes/postre.jfif);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 110vh;;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+#historia .carta11{
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url(imagenes/matadero.jfif);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 110vh;;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+
+
+@media screen and (max-width: 800px) {
+    #balcarce{
+        flex-direction: column;
+    }
+}
